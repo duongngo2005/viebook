@@ -1,0 +1,136 @@
+# =========================================================
+# OS files
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# Logs
+# =========================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================================================
+# Environment variables
+# =========================================================
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# =========================================================
+# IDE / Editors
+# =========================================================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# =========================================================
+# Java / Spring Boot / Maven
+# =========================================================
+target/
+*.class
+
+# Maven Wrapper should be committed
+!.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot generated files
+HELP.md
+
+# Application local config
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
+
+# =========================================================
+# Gradle
+# =========================================================
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# =========================================================
+# Java runtime / package files
+# =========================================================
+*.jar
+*.war
+*.ear
+
+# Keep wrapper jars if needed
+!**/maven-wrapper.jar
+!**/gradle-wrapper.jar
+
+# =========================================================
+# Node / React / Vite / TypeScript
+# =========================================================
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Package manager cache
+.pnpm-store/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# =========================================================
+# React / Vite env files
+# =========================================================
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# =========================================================
+# Testing / Coverage
+# =========================================================
+coverage/
+.nyc_output/
+
+# =========================================================
+# Uploads / Generated files
+# =========================================================
+uploads/
+storage/
+tmp/
+temp/
+
+# =========================================================
+# Database
+# =========================================================
+*.sqlite
+*.sqlite3
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+
+# =========================================================
+# Docker / Local volume data
+# =========================================================
+docker-data/
+mysql-data/
+postgres-data/
+
+# =========================================================
+# Build tool / Misc
+# =========================================================
+out/
+bin/
